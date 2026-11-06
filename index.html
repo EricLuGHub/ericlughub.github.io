@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Eric Lu is a backend and infrastructure engineer building reliable, data-intensive services and AI systems." />
+    <meta name="theme-color" content="#0b1020" />
+    <title>Eric Lu · Software Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="noise" aria-hidden="true"></div>
+    <header class="nav wrap">
+      <a class="monogram" href="#top" aria-label="Eric Lu home">EL</a>
+      <nav aria-label="Primary navigation">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="https://github.com/EricLuGHub" target="_blank" rel="noreferrer">GitHub <span>↗</span></a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero wrap">
+        <p class="kicker">Backend & infrastructure engineer · Montreal / Vancouver</p>
+        <h1>I build systems<br /><em>people can trust.</em></h1>
+        <div class="hero-bottom">
+          <p>AI infrastructure, automation, and data-intensive services engineered for performance and production reliability.</p>
+          <a class="arrow-link" href="#work">Selected work <b>↓</b></a>
+        </div>
+        <div class="signal" aria-hidden="true">
+          <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+        </div>
+      </section>
+
+      <section id="work" class="projects wrap">
+        <div class="section-head">
+          <p class="kicker">01 — Selected work</p>
+          <p class="muted">Systems work, automation, and engineering experiments.</p>
+        </div>
+
+        <a class="project project-featured" href="https://github.com/EricLuGHub/openAI-hackathon" target="_blank" rel="noreferrer">
+          <div class="project-copy">
+            <p class="project-number">01</p>
+            <h2>Agent<br />Haderach</h2>
+            <p>A memory layer for coding agents that turns useful work into reusable, evidence-backed context — without storing private conversations.</p>
+            <ul><li>TypeScript</li><li>MCP</li><li>PostgreSQL</li></ul>
+            <span class="view">View project <b>↗</b></span>
+          </div>
+          <div class="art art-memory" aria-hidden="true">
+            <div class="memory-window"><i></i><i></i><i></i><b>context / find</b><strong>useful work,<br />at the right time.</strong><small>evidence · freshness · outcomes</small></div>
+            <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+          </div>
+        </a>
+
+        <div class="project-grid">
+          <a class="project project-small" href="https://github.com/EricLuGHub/imcprosp4" target="_blank" rel="noreferrer">
+            <div class="project-copy">
+              <p class="project-number">02</p>
+              <h2>Systems<br />Simulation Lab</h2>
+              <p>A modular environment for testing ideas against dense event streams, measuring behaviour, and iterating from results.</p>
+              <ul><li>Python</li><li>NumPy</li><li>pandas</li></ul>
+              <span class="view">View project <b>↗</b></span>
+            </div>
+            <div class="art art-simulation" aria-hidden="true"><div class="chart"><i></i><i></i><i></i><i></i><i></i><svg viewBox="0 0 320 120" preserveAspectRatio="none"><path d="M0 91 C25 85 35 98 55 68 S84 88 107 53 S134 68 157 47 S183 80 208 36 S240 73 264 20 S290 41 320 8" /></svg></div></div>
+          </a>
+          <a class="project project-small" href="https://github.com/EricLuGHub/429proj-1" target="_blank" rel="noreferrer">
+            <div class="project-copy">
+              <p class="project-number">03</p>
+              <h2>Software<br />Quality Lab</h2>
+              <p>Automated verification across API behaviour, edge cases, and end-to-end acceptance scenarios.</p>
+              <ul><li>Python</li><li>pytest</li><li>Behave</li></ul>
+              <span class="view">View project <b>↗</b></span>
+            </div>
+            <div class="art art-quality" aria-hidden="true"><div class="test-card"><span>test suite</span><b>42 / 42</b><small>checks passing</small><i></i><i></i><i></i></div></div>
+          </a>
+        </div>
+      </section>
+
+      <section id="about" class="about wrap">
+        <p class="kicker">02 — About</p>
+        <div>
+          <h2>I’m Eric, a computer science student at McGill who likes making complex systems calm, observable, and fast.</h2>
+          <p>I’ve worked across distributed backend services, AI infrastructure, cloud observability, and developer automation. I’m especially drawn to the boundary where a strong architecture becomes a reliable production system.</p>
+          <div class="facts"><span>Strengths</span><b>AI infrastructure · automation · backend</b><span>Also</span><b>Microservices · data systems · optimization</b><span>Focus</span><b>Reliability · observability · scale</b></div>
+        </div>
+      </section>
+
+      <section class="contact wrap">
+        <p class="kicker">03 — Say hello</p>
+        <a href="mailto:eric.lu@mail.mcgill.ca">Let’s make<br /><em>something useful.</em> <b>↗</b></a>
+      </section>
+    </main>
+    <footer class="wrap"><span>© <span id="year"></span> Eric Lu</span><span>Built with care, no tracking.</span></footer>
+    <script>document.getElementById('year').textContent = new Date().getFullYear()</script>
+  </body>
+</html>
