@@ -1,0 +1,19 @@
+.github/workflows/deploy-pages.yml
+  s_78e905ea4bc1a6::t_7d4eb70c0152ca 1-30
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "0b8a8320cebefb4f993a0555ae7f0da138ff16f5",
+  "prompts": {},
+  "sessions": {
+    "s_78e905ea4bc1a6": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1b231-b6bd-7841-aed2-68064f98047c",
+        "model": "gpt-5.6-terra"
+      },
+      "human_author": "ericlu <erickandmorty2013@gmail.com>"
+    }
+  }
+}
